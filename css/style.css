@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Crimson Pro', serif;
+  color: #fff;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/d/d8/Kontiki-raft.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: brightness(0.85);
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #dfe;
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #aeeafc;
+}
+
+p {
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
